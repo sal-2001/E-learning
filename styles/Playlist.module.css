@@ -1,0 +1,117 @@
+.video_container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video_player
+{
+    max-width: 50%;
+}
+.question_container{
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 500px;
+}
+.question_container > h3{
+    font-size: 25px;
+}
+.choices > h3{
+    font-size: 25px;
+}
+.choices > p {
+    font-size: 13px;
+    color: red;
+    margin-top: 10px;
+}
+.choices{
+    text-align: left;
+}
+.choice{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.choice > label{
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.answer_submit
+{
+    background-color: rgb(40, 54, 210);
+    color: white;
+    padding: 10px 40px 10px 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    margin-top: 10px;
+    max-width: max-content;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px)
+{
+    .video_container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .video_container > h1{
+        font-size: 26px;
+    }
+    .video_player
+    {
+        max-width: 80%;
+    }
+    .question_container{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        max-width: 500px;
+    }
+    .question_container > h3{
+        font-size: 15px;
+    }
+    .choices > h3{
+    font-size: 15px;
+    }
+    .choices > p {
+        font-size: 12px;
+        color: red;
+        margin-top: 10px;
+    }
+    .choices{
+        text-align: left;
+    }
+    .choice{
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .choice > label{
+        font-size: 12px;
+        font-weight: 700;
+        margin-left: 10px;
+    }
+
+    .answer_submit
+    {
+        background-color: rgb(40, 54, 210);
+        color: white;
+        padding: 8px 25px 8px 25px;
+        border-radius: 5px;
+        border: none;
+        font-size: 12px;
+        margin-top: 2px;
+        max-width: max-content;
+        cursor: pointer;
+    }
+}

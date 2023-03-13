@@ -1,0 +1,15 @@
+.carousel_items{
+    margin-top: 50px;
+}
+.itemP{
+    text-align: center;
+}
+.carousel_image{
+    width: 60%;
+    height: 60%;
+}
+@media  screen and (max-width: 600px) {
+    .carousel_image{
+        width: 75%;
+    }
+}

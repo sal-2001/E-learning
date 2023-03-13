@@ -1,0 +1,14 @@
+.result_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.correct_answer{
+    color: green;
+}
+.onecorrect_answer{
+    color: orange;
+}
+.wrong_answer{
+    color: red;
+}
